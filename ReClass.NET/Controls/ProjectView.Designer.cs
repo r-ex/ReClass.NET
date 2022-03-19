@@ -32,7 +32,9 @@ namespace ReClassNET.Controls
 			this.SuspendLayout();
 			// 
 			// projectTreeView
-			// 
+			//
+			this.projectTreeView.BackColor = System.Drawing.ColorTranslator.FromHtml("#1f1f1f");
+			this.projectTreeView.ForeColor = System.Drawing.SystemColors.ControlLightLight;
 			this.projectTreeView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.projectTreeView.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.projectTreeView.HideSelection = false;
